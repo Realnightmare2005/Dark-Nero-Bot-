@@ -40,8 +40,8 @@ module.exports = {
   BRANCH: 'main',
   autobio:  process.env.AUTO_BIO === undefined ? false : process.env.AUTO_BIO,
   ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
-  caption :process.env.CAPTION || "  \t🎋⃟🥷 *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴄʏʙᴇʀ ʏᴀᴋᴜᴢᴀ ᴛᴇᴀᴍ*",
-  OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY,
+  caption :process.env.CAPTION || "  \t🎋⃟🥷 *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴄʏʙᴇʀ Poojana*",
+  OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? true : process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
   HEROKU: {
     HEROKU: process.env.HEROKU ||false,
